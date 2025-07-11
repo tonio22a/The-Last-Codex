@@ -1,4 +1,4 @@
-from classes import Character, Item, Quest
+from classes import Character, Item, QuestProgress
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 from typing import Dict, List
