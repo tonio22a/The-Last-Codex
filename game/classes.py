@@ -56,3 +56,9 @@ class Quest(GameObject):
     reward_gold: int
     reward_items: List[Item] = None
     required_level: int = 1
+
+@dataclass
+class QuestProgress:
+    quest_id: str
+    completed: bool = False
+    current_step: int = 0
